@@ -7,7 +7,19 @@ I have no idea why I like the word "hello".
 ## Behave Demo
 
 make sure python2.7, selenium and behave have been installed
-make sure ChromeDriver is in the path
+
+```
+pip install selenium
+pip install behave
+```
+
+make sure Chrome is installed and ChromeDriver is in the path
+
+```
+brew install chromedriver
+```
+
+For Windows, find the chromedriver 2.20 [here](https://github.com/heaton/easy-selenium/tree/master/drivers)
 
 ### Start a test sever
 
