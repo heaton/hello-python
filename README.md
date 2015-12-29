@@ -34,3 +34,14 @@ python -m SimpleHTTPServer 8000
 behave
 ```
 
+## Transform the json in behave format to the foramt of cucubmer report
+
+run behave
+
+```
+behave --format=json --outfile=result/behave.json
+python transform_json_to_cucumber.py
+```
+
+then see reslut/cucumber.json
+
