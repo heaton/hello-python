@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# Author: Heaton
+# Source: https://github.com/heaton/hello-python
 
 import json
 import re
